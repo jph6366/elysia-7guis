@@ -3,7 +3,7 @@ import { opentelemetry } from '@elysiajs/opentelemetry';
 import { swagger } from '@elysiajs/swagger';
 import { note } from './note';
 import { user } from './user'
-import { html, Html } from '@elysiajs/html'
+import Html, { html } from '@elysiajs/html'
 import staticPlugin from "@elysiajs/static";
 import Home from "./components/Home";
 import * as e from "./imports";

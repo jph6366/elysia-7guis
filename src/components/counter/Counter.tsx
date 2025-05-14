@@ -1,4 +1,4 @@
-import Html from '@elysiajs/html';
+import Html, {html} from '@elysiajs/html';
 
 export default function Counter(count: any) {
     return (
