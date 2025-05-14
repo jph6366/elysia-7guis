@@ -36,9 +36,7 @@ export const getCounter= new Elysia(({ name: 'counter/task'}))
     .get('/', () => {
         return (
             <Layout title='counter'>
-                <Home title='counter'>
-                    <Counter count={'counter'} />
-                </Home>
+                <Counter count={'counter'} />
             </Layout>
         );
     })
